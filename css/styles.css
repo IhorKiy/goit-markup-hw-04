@@ -200,6 +200,18 @@ img {
   list-style: none;
 }
 
+.advantages-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background: #F5F4FA;
+    border-radius: 4px;
+}
+
 .advantages-list-item {
   flex-basis: 270px;
 }
@@ -207,10 +219,6 @@ img {
   width: 270px;
 } */
 
-.advantages-box{
-  display: block;
-  background-image: ../;
-}
 .advantages-title {
   margin-bottom: 10px;
   font-weight: 700;
